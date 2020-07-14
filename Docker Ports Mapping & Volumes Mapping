@@ -12,6 +12,8 @@ c. Map host port 8088 to container port 80. Please
 2. docker create --name demo -p 8088:80 nginx:alpine-perl 
 3. docker start demo
 
+##############################################################
+
 MAP HOST VOLME TO CONTAINER VOLUME:
                                volumes to map	
 docker run --name beta -it -v /opt/dba/:/tmp/ ubuntu:latest
